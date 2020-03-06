@@ -1,14 +1,17 @@
 # Attendence-Prediction
+## Objective:
 Assuming that for each student, there will be FIVE  subjects in Each year. We will categories these fifteen subjects in [Numerical, Theoretical,  Programming] categories. Our aim is to predict the attendance of student in Fourth  year in all the three subject categories.
 
-
+## Files Description:
 Here we have 3 files. Out of which two are Excel files (StudentData.xlsx and PredictedData.xlsx) and one is our R script (Prediction.R).
 
-Exploring Prediction.R:
-  First of all we will categories the subjects as below:
-    1. NUMERICAL   -->  Y1S1, Y1S2, Y2S1, Y2S2, Y3S1
-    2. THEORETICAL -->  Y1S3, Y1S4, Y2S3, Y2S4, Y3S2
-    3. PROGRAMMING -->  Y1S5, Y2S5, Y3S3, Y3S4, Y3S5
+### Exploring Prediction.R:
+```
+  - First of all we will categories the subjects as below:  { Y >> YEAR, S >> SUBJECT }
+    - 1. NUMERICAL   -->  Y1S1, Y1S2, Y2S1, Y2S2, Y3S1
+    - 2. THEORETICAL -->  Y1S3, Y1S4, Y2S3, Y2S4, Y3S2
+    - 3. PROGRAMMING -->  Y1S5, Y2S5, Y3S3, Y3S4, Y3S5
+```
     
 Now, we will use Linear Regression to find out the "m" and "b" values in equation "y=mx+b" where,
             "y" is the VALUE_TO_BE_PREDICTED,
@@ -28,7 +31,16 @@ Now, we will use Linear Regression to find out the "m" and "b" values in equatio
                 and XVAR is the independent, or predictor, variable.
     
                 data: the variable that contains the dataset.
-
+```
 The lm command takes the variables in the format:
-
 lm([target variable] ~ [predictor variables], data = [data source])
+```
+
+---
+### Contact:
+[LinkedIn](https://www.linkedin.com/in/varun-mishra-as-hactivistvm) |
+[Twitter](https://twitter.com/_VarunM) |
+[HackerRank](https://www.hackerrank.com/hacktivistvm) |
+ Email:  varun11mishra@gmail.com |
+
+---
