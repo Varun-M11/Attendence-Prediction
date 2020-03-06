@@ -35,7 +35,17 @@ Now, we will use Linear Regression to find out the "m" and "b" values in equatio
 The lm command takes the variables in the format:
 lm([target variable] ~ [predictor variables], data = [data source])
 ```
-
+## How to Run this code:
+~~~
+  STEPS:
+  - 1. Copy the code from Prediction.R file into your R-Scrip
+  - 2. In RStudio goto: IMPORT DATASET >> FROM EXCEL and select StudentData.xlsx and then same for PredictedData.xlsx
+  - 3. Run the code in you RStudio.
+~~~
+### NOTE:
+~~~
+Initially the numerica, theoretical and programming Colums in your StudentData.xlsx would be Blank and also in your PredictedData.xlsx these categories would be Blank (NA). But as soon as you run the code the will get filled and you can see their values in RStudio.
+~~~
 ---
 ### Contact:
 [LinkedIn](https://www.linkedin.com/in/varun-mishra-as-hactivistvm) |
