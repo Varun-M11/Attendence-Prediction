@@ -44,7 +44,7 @@ lm([target variable] ~ [predictor variables], data = [data source])
 ~~~
 ### NOTE:
 ~~~
-Initially the numerica, theoretical and programming Colums in your StudentData.xlsx would be Blank and also in your PredictedData.xlsx these categories would be Blank (NA). But as soon as you run the code the will get filled and you can see their values in RStudio.
+Initially the numerica, theoretical and programming Colums in your StudentData.xlsx would be Blank and also in your PredictedData.xlsx these categories would be Blank (NA). But as soon as you run the code they will get filled and you can see their values in RStudio.
 ~~~
 ---
 ### Contact:
